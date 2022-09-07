@@ -3,7 +3,7 @@ const fs = require('fs');
 // const FILE = './2021/a1/inputs/test_case.txt';
 const FILE = './2021/a1/inputs/weak_typing_chapter_1_input.txt';
 
-var access = fs.createWriteStream(FILE.replace("input", "output"));
+var access = fs.createWriteStream(FILE.replaceAll("input", "output"));
 process.stdout.write = process.stderr.write = access.write.bind(access);
 
 const display = (i, status) => {

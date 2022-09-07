@@ -1,0 +1,10 @@
+Case #0: Impossible
+Case #1: Possible
+.
+.
+.
+Case #2: Possible
+^^^^
+^^^^
+^^^^
+^^^^

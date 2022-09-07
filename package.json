@@ -4,7 +4,8 @@
   "description": "Meta hacker cup",
   "scripts": {
     "2021_a1": "node ./2021/a1",
-    "2022_hands": "node ./2022/hands"
+    "2022_hands": "node ./2022/hands",
+    "2022_b2": "node ./2022/b2"
   },
   "author": "victor duteurtre",
   "license": "ISC"
